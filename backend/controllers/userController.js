@@ -2,7 +2,7 @@ const userModel=require('../models/userModel')
 
 const jwt=require('jsonwebtoken')
 
-const bcrypt=require('bcrypt')
+const bcrypt = require('bcryptjs');
 
 const validator=require('validator')
 const { exists } = require('../models/foodModel')
